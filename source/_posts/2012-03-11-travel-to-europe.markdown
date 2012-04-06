@@ -14,4 +14,4 @@ categories: [Life, Geek]
 
 BTW，从开始准备欧洲大陆行到现在差不多有一个月了，下周我和两个朋友将沿着下面的路线开始我们的行程，22天，6个国家，11个城市。其实我也算是去过不少地方了，但从来没有写过游记，所以希望能用我的博客记录一下这次欧洲大陆行。
 
-![](http://blog.verycb.net/wp-content/uploads/2012/03/line.jpg)
+![](http://ww1.sinaimg.cn/large/a0c2e9c9gw1drqfwxwo4zj.jpg)
