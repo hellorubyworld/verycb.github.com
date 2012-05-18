@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 满足
-date: 2007-09-15 01:09
+date: '2007-09-15 01:09'
 comments: true
 categories: [Life, HGDonline]
 ---
