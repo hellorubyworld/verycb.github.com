@@ -9,9 +9,11 @@
 body {
 	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
-	width: 50%;
+	width: 61.8%;
 	margin: 0 auto;
 	letter-spacing: 1px;
+	background: #fff;
+	color: #000;
 }
 header {
 	margin: 50px 0;
@@ -19,6 +21,7 @@ header {
 section {
 	font-size: 1.1em;
 	line-height: 1.5;
+	/*word-break:break-all;*/ /*禁用强制不换行*/ 
 	clear: both;
 }
 p {
