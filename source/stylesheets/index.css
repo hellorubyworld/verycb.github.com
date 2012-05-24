@@ -1,0 +1,134 @@
+/*************************
+**********@global*********
+*************************/
+ 
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	width: 50%;
+	margin: 0 auto;
+	letter-spacing: 1px;
+}
+header {
+	margin: 50px 0;
+}
+section {
+	font-size: 1.1em;
+	line-height: 1.5;
+	clear: both;
+}
+p {
+	margin: 20px 0;
+}
+h1 {
+	font-size: 3em;
+	font-weight: 300;
+}
+a:link {
+	text-decoration: none;
+	color: #f30;
+}
+a:visited {
+	color: #903;
+}
+a:hover, a:focus, a:active {
+	border-bottom: 1px dashed #f30;
+}
+.hidden {
+	display: none;
+}
+/*************************
+**********@header*********
+*************************/
+
+header h1 {
+	margin-bottom: 10px;
+}
+header a:link, header a:visited  {
+	margin-right: 5px;
+	text-indent: -9999px;
+	display: block;
+	width: 16px;
+	height: 11px;
+	float: right;
+	-moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
+	opacity: 0.3;
+}
+header a:hover, header a:focus, header a:active {
+	border: 0;
+	opacity: 1;
+}
+header a.current {
+	opacity: 1;
+}
+#zh-cn {
+	background: url(../images/cn.png) no-repeat top right;
+}
+#en {
+	background: url(../images/gb.png) no-repeat top right;
+}
+
+/*************************
+**********@intro**********
+*************************/
+
+.intro span {
+	color: #f30;
+}
+.intro a {
+	padding-right: 17px;
+}
+a[href^='http://www.vim'] {
+	background: url(../images/vim.png) no-repeat top right;
+}
+a[href^='http://mou'] {
+	background: url(../images/mou.png) no-repeat top right;
+}
+a[href^='http://aquamacs'] {
+	background: url(../images/aquamacs.png) no-repeat top right;
+}
+a[href^='http://www.spotify'] {
+	background: url(../images/spotify.png) no-repeat top right;
+}
+a[href$='macosx/'] {
+	background: url(../images/MacOS.png) no-repeat top right;
+}
+a[href^='http://windows'] {
+	background: url(../images/Windows.png) no-repeat top right;
+}
+a[href$='terminal'] {
+	background: url(../images/terminal.png) no-repeat top right;
+}
+a[href^='http://www.douban'] {
+	background: url(../images/douban.png) no-repeat top right;
+}
+a[href^='http://web.stagram'] {
+	background: url(../images/instagram.png) no-repeat top right;
+}
+a[href$='blog/'] {
+	background: url(../images/octopress.png) no-repeat top right;
+}
+a[href^='http://jekyll'] {
+	background: url(../images/jekyll.png) no-repeat top right;
+}
+a[href^='http://octopress'] {
+	background: url(../images/octopress.png) no-repeat top right;
+}
+a[href^='https://github'] {
+	background: url(../images/github.png) no-repeat top right;
+}
+a[href^='http://t.verycb'] {
+	background: url(../images/tumblr.png) no-repeat top right;
+}
+a[href^='http://twitter'] {
+	background: url(../images/twitter.png) no-repeat top right;
+}
+a[href^='http://fanfou'] {
+	background: url(../images/fanfou.jpg) no-repeat top right;
+}

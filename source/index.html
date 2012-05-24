@@ -1,29 +1,26 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheets/index.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="javascripts/lang.js"></script>
+<title>VeryCB</title>
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+<header>
+	<a class="current" id="en" href="#" title="change to English">English</a>
+	<a id="zh-cn" href="#" title="切换到简体中文">简体中文</a>
+	<h1>VeryCB</h1>
+</header>
+
+<section class="intro" id="intro-en">
+	<p>Hi! My name is <span>Bin Cai</span>. Currently, I'm studying Web Technology for a master degree in University of Southampton, UK.</p>
+	<p>Though I’m still a beginner, there is no gainsaying that one of my greatest pleasure in life is to create accessible websites using <span>HTML</span>, <span>CSS</span> and <span>JavaScript</span>. I am an adherent to web standards and I hate IE6. I’m also learning <span>Python</span> for fun.</p>
+	<p>My favourite editor is <a href="http://www.vim.org/" title="My favourite editor">Vim</a>, no big deal, just comfortable for me and I'm still learning to use it efficiently. Additionally, I use <a href="http://mouapp.com/" title="a Markdown editor on Mac OS">Mou</a> for writing <span>Markdown</span> and <a href="http://aquamacs.org/" title="Emacs for Mac OS X">Aquamacs</a> for <span>LaTeX</span>. When I’m coding, I also like listening to the “Classical” channel on <a href="http://www.spotify.com/" title="a social music player">Spotify</a> radio.</p>
+	<p>I have been using <a href="http://www.apple.com/macosx/" title="an operating system developed by Apple">Mac OS</a> for two years, after a 10-year period of using <a href="http://windows.microsoft.com" title="an operating systems developed by Microsoft">Windows</a> PC. I can operate some basic <span>shell</span> commands to connect to and shuttle in servers using <a href="http://www.apple.com/macosx/apps/all.html#terminal" title="a terminal emulator included in Mac OS">Terminal</a>, such as SSH, SCP, etc.</p>
+	<p>In my spare time, I like watching <span>movies</span>, <span>reading</span> books, <span>travelling</span> and <span>photography</span>. I have already marked 500+ movies as watched on <a href="http://www.douban.com/people/VeryCB/" title="my douban">Douban</a>. During the past 22 years of my life, I have been to 9 countries and dozens of cities and took lots of photos, some of which could be found on <a href="http://web.stagram.com/n/verycb/?vm=grid" title="my photos">Instagram</a>.</p>
+	<p>I began to <a href="http://verycb.me/blog/" title="my blog">blog</a> in 2006, but after moving from one place to another, most of the posts are missing and only a few survived. Used BSPs include <span>Sina Blog</span>, <span>MSN spaces</span>, <span>BlogBus</span> and <span>WordPress</span> and now I use <a href="http://jekyllrb.com/" title="a blog-aware, static site generator">JekyII</a> and <a href="http://octopress.org/" title="a framework for Jekyll">Octopress</a> for blogging, which hosted on <a href="https://github.com/VeryCB" title="fork me on github">Github</a>. I also own a <a href="http://t.verycb.me/" title="my tumblr">tumblr</a> blog for notes.</p>
+	<p>I <a href="http://twitter.com/VeryCB" title="my twtter">tweet</a> a lot, while mostly in Simplified Chinese. Before coming to <span>twitter</span>, I have been using <a href="http://fanfou.com/calvin89" title="my fanfou">fanfou</a> for microblogging till it was shut down.</p>
+</section>
+
+<section class="intro hidden" id="intro-zh-cn">
+	<p>测试</p>
+</section>
