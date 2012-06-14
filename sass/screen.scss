@@ -122,8 +122,9 @@ article {
 	ol li img, ul li img {
 		margin: 10px 0;
 	}
-	h1.entry-title {
+	h1, h2, h3, h4 {
 		font-family: "Lucida Grande", Helvetica, 'Hiragino Sans GB', "Hiragino Sans GB W6", "Microsoft YaHei", sans-serif;
+		font-weight: normal;
 	}
 	footer {
 		float: none;
