@@ -119,6 +119,9 @@ div.pagination {
 	}
 }
 article {
+	ol li img, ul li img {
+		margin: 10px 0;
+	}
 	footer {
 		float: none;
 		padding: 0;
