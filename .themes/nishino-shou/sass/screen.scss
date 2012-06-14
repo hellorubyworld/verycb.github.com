@@ -64,9 +64,11 @@ ul ul, ol ol, ul ol, ol ul {
 *************************/
 header hgroup {
 	ul {
+		list-style-type: none;
 		float:right;
 		li {
 			float: left;
+			list-style-type: none;
 			margin-left: 15px;
 		}
 	}
