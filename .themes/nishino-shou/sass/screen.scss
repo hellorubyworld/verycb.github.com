@@ -122,6 +122,14 @@ article {
 	ol li img, ul li img {
 		margin: 10px 0;
 	}
+	img {
+		-moz-box-shadow: 0px 3px 12px #acb5c4;
+		-webkit-box-shadow: 0px 3px 12px #acb5c4;
+		box-shadow: 0px 3px 12px #acb5c4;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+	}
 	h1, h2, h3, h4 {
 		font-family: "Lucida Grande", Helvetica, 'Hiragino Sans GB', "Hiragino Sans GB W6", "Microsoft YaHei", sans-serif;
 		font-weight: normal;
