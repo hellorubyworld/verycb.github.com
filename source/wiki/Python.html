@@ -17,10 +17,12 @@
 <h1 id="toc_1">All about Python</h1>
 
 <h2 id="toc_1.1">创建目录</h2>
-<pre class="brush: python">
+<pre class="brush: py">
 import os
 os.mkdir('test') #创建名为“test”的目录
 os.mkdir('test/test2') #创建多级目录
+os.path.isfile('test.txt') #判断文件“test.txt”是否存在
+os.path.exists('test/test') #判断目录“test/test”是否存在
 </pre>
 
 </body>
