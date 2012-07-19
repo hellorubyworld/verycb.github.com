@@ -17,9 +17,30 @@
 <h1 id="toc_1">All about Shell</h1>
 
 <h2 id="toc_1.1">比较文件不同</h2>
-<pre class="brush: py">
+<pre class="brush: shell">
 $ diff file1 file2
 </pre>
+
+<h2 id="toc_1.2">打包与提取</h2>
+<pre class="brush: shell">
+$ tar cvf alldocs.tar *.doc # 将所有 .doc 文件打包成 alldocs.tar
+$ tar cvf test.tar test/ # 将 test 目录及其中的所有文件打包成 test.tar
+$ tar cvzf alldocs.tar.gz *.doc # 将所有 .doc 文件打包并压缩成 alldocs.tar.gz
+$ tar tvf alldocs.tar # 将 alldocs.tar 里的文件都打印出来
+$ tar xvf alldocs.tar # 将 alldocs.tar 里的文件都提取出来
+$ tar xzvf alldocs.tar.gz # 将 alldocs.tar.gz解压并将其内的文件都提取出来
+</pre>
+<p>
+部分参数：
+c: Create a new archive.
+t: List the contents of an archive.
+x: Extract the contents of an archive.
+f: The archive file name is given on the command line (required whenever the tar output is going to a file)
+M: The archive can span multiple floppies.
+v: Print verbose output (list file names as they are processed).
+u: Add files to the archive if they are newer than the copy in the tar file.
+z: Compress or decompress files automatically.
+</p>
 
 </body>
 </html>
