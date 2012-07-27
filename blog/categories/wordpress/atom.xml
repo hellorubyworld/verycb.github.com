@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: WordPress | VeryCB]]></title>
-  <link href="http://verycb.github.com/blog/categories/wordpress/atom.xml" rel="self"/>
-  <link href="http://verycb.github.com/"/>
-  <updated>2012-07-27T16:49:42+01:00</updated>
-  <id>http://verycb.github.com/</id>
+  <link href="http://VeryCB.github.com/blog/categories/wordpress/atom.xml" rel="self"/>
+  <link href="http://VeryCB.github.com/"/>
+  <updated>2012-07-27T17:26:42+01:00</updated>
+  <id>http://VeryCB.github.com/</id>
   <author>
     <name><![CDATA[Calvin]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Theme for WordPress: Very Simple]]></title>
-    <link href="http://verycb.github.com/blog/2009/04/30/wordpress-theme-very-simple/"/>
+    <link href="http://VeryCB.github.com/blog/2009/04/30/wordpress-theme-very-simple/"/>
     <updated>2009-04-30T02:49:00+01:00</updated>
-    <id>http://verycb.github.com/blog/2009/04/30/wordpress-theme-very-simple</id>
+    <id>http://VeryCB.github.com/blog/2009/04/30/wordpress-theme-very-simple</id>
     <content type="html"><![CDATA[<p><strong>主题名称：</strong>Very Simple<br/>
 <strong>目前版本：</strong>V1.5 Build100203<br/>
 <strong>主题标签：</strong>白色，简洁，两栏自动适应<br/>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Software | VeryCB]]></title>
-  <link href="http://verycb.github.com/blog/categories/software/atom.xml" rel="self"/>
-  <link href="http://verycb.github.com/"/>
-  <updated>2012-07-27T16:49:42+01:00</updated>
-  <id>http://verycb.github.com/</id>
+  <link href="http://VeryCB.github.com/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://VeryCB.github.com/"/>
+  <updated>2012-07-27T17:26:42+01:00</updated>
+  <id>http://VeryCB.github.com/</id>
   <author>
     <name><![CDATA[Calvin]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Astrill:翻墙利器，目前免费]]></title>
-    <link href="http://verycb.github.com/blog/2010/01/27/astrill/"/>
+    <link href="http://VeryCB.github.com/blog/2010/01/27/astrill/"/>
     <updated>2010-01-27T02:49:00+00:00</updated>
-    <id>http://verycb.github.com/blog/2010/01/27/astrill</id>
+    <id>http://VeryCB.github.com/blog/2010/01/27/astrill</id>
     <content type="html"><![CDATA[<p>之前一直用tor翻墙，不过只在Firefox里用的比较方便，其他浏览器（如Chrome等）虽然也可以用，但比较麻烦，也不是很稳定。后来有朋友推荐了一款VPN软件：Astrill，兼容IE、Firefox、Chrome、Opera、Safari等主流浏览器，速度还很快。经过我一段时间的试用，发现真的挺不错的，而且目前完全免费，所以推荐给大家。</p>
 
 <p>Astrill官方网站：<a href="http://www.astrill.com">http://www.astrill.com</a>，去这里下载并且注册，不过注册需要邀请码，可自行到<a href="https://www.astrill.com/sendinvites.php">https://www.astrill.com/sendinvites.php</a>去给自己的邮箱发邀请信，然后就可以无视GFW，去墙外寻找真相了。</p>
