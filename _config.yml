@@ -2,7 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://VeryCB.github.com
+#<<<<<<< HEAD
+#url: http://VeryCB.github.com
+#=======
+#url: http://verycb.me
+#>>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
 title: VeryCB
 subtitle: 
 author: Calvin
@@ -35,7 +39,6 @@ code_dir: downloads/code
 category_dir: blog/categories
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
-
 paginate: 5          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section

@@ -245,7 +245,18 @@ Publisher.objects.all() # 取出 Publisher 表中的所有对象
 Publisher.objects.order_by("name") # 取出 Publisher 表中的所有对象并按照 name 排序，若要倒序，只要在 name 前面加个 - 即可，即 order_by("-name")
 Publisher.objects.filter(name__contains="press") # 取出 Publisher 表中的 name 中包含 press 的对象
 Publisher.objects.filter(id=1).update(name='Apress Publishing') # 更新记录
-ublisher.objects.filter(name='Apress').delete() # 删除
+Publisher.objects.filter(name='Apress').delete() # 删除
+</pre>
+
+<h3 id="toc_1.5.8">HttpRequest对象</h3>
+<pre class="brush.py">
+| request.PATH             | 请求的路径，不包含域和参数                                                                                                                  |
+| request.get_host()       | 域                                                                                                                                          |
+| request.get_full_path()  | 请求的路径，包含参数                                                                                                                        |
+| request.is_secure()      | 判断是否 https                                                                                                                              |
+| request.META             | HTTP header 里包含的信息（字典类型），如 request.META['HTTP_USER_AGENT'] 获取用户浏览器的 UA，request.META['REMOTE_ADDR'] 获取请求来源的 IP |
+| request.GET['name']      | 从 GET 请求中获取 name 的值                                                                                                                 |
+| request.POST['password'] | 从 POST 请求中获取 password 的值                                                                                                            |
 </pre>
 
 </body>
