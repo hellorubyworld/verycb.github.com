@@ -6,10 +6,7 @@
 <link type="text/css" rel="stylesheet" href="styles/shThemeDefault.css" /> 
 <script type="text/javascript" src="scripts/shCore.js"></script> 
 <script type="text/javascript" src="scripts/shBrushPython.js"></script>
-<<<<<<< HEAD
 <script type="text/javascript" src="scripts/shBrushBash.js"></script>
-=======
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
 <script type="text/javascript">
   SyntaxHighlighter.all();
 </script> 
@@ -24,49 +21,29 @@
 <p>
 Ubuntu:
 </p>
-<<<<<<< HEAD
 <pre class="brush: shell">
-=======
-<pre class="brush: py">
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
 $ apt-get install postgresql
 </pre>
 <p>
 这样就安装好 PostgreSQL 了，该安装将自动创建一个缺省的数据库集群 “main”，并生成一个数据库超级用户 postgres ，密码为空，它即是操作系统用户(不可登录)，也是数据库用户(可登录) ，可以使用以下命令修改它的密码（为了数据安全，一定要修改密码）：
 </p>
-<<<<<<< HEAD
 <pre class="brush: shell">
-=======
-<pre class="brush: py">
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
 $ sudo passwd postgres
 </pre>
 
 <h2 id="toc_1.2">登陆</h2>
-<<<<<<< HEAD
 <pre class="brush: shell">
-=======
-<pre class="brush: py">
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
 $ sudo su postgres #切换到 postgres 用户
 $ psql postgres # 登录 postgres 数据库
 </pre>
 
 <h2 id="toc_1.3">创建用户</h2>
-<<<<<<< HEAD
 <pre class="brush: shell">
-=======
-<pre class="brush: py">
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
 $ createuser -drSP sa #创建一个可以新建用户和数据库，不是超级用户的用户sa
 </pre>
 
 <h2 id="toc_1.4">创建数据库</h2>
-<<<<<<< HEAD
 <pre class="brush: shell">
-=======
-<pre class="brush: py">
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
 $ createdb -O sa mydb # 新建一个属于 sa 的数据库 mydb
 </pre>
 
