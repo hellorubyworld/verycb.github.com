@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Geek | VeryCB]]></title>
-  <link href="http://VeryCB.github.com/blog/categories/geek/atom.xml" rel="self"/>
-  <link href="http://VeryCB.github.com/"/>
-  <updated>2012-07-27T17:40:09+01:00</updated>
-  <id>http://VeryCB.github.com/</id>
+  <link href="/blog/categories/geek/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2012-07-28T19:13:18+01:00</updated>
+  <id>/</id>
   <author>
     <name><![CDATA[Calvin]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[域名即将更换]]></title>
-    <link href="http://VeryCB.github.com/blog/2012/03/11/travel-to-europe/"/>
+    <link href="/blog/2012/03/11/travel-to-europe/"/>
     <updated>2012-03-11T21:27:59+00:00</updated>
-    <id>http://VeryCB.github.com/blog/2012/03/11/travel-to-europe</id>
+    <id>/blog/2012/03/11/travel-to-europe</id>
     <content type="html"><![CDATA[<p>前段时间收到华夏名网（我的域名商）的邮件让我备案，否则域名将随时可能停止解析。考虑到域名即将到期，我也不打算备案，因为备案就意味着言论自由受到控制，于是就想把域名转出到国外的域名商。查了一下转出手续，异常复杂不说，还要提供各种个人信息，并缴纳一定数量的转出费用。所以打算果断废弃verycb.net这个用了好几年的域名，然后入了我的第三个域名——verycb.me。如果你在使用verycb.net访问本站时遇到故障，请尝试使用verycb.me。</p>
 
 <p>上周用做coursework的间隙折腾了一下<a href="https://github.com/mojombo/jekyll">Jekyll</a>这个静态网页生成引擎，能把Markdown或者Textile转化成HTML，用来写博客非常不错，重要的是Github原生支持Jekyll，这样就能用git来管理仓库了，再配合dropbox管理多媒体文件（Github免费用户只有300M的空间），这样能省下不少钱。于是准备把博客从WordPress转移成Git+Github+Dropbox+Markdown+Jekyll组合。于是，域名和空间都要换了...</p>

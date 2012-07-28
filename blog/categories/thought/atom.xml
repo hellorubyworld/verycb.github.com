@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Thought | VeryCB]]></title>
-  <link href="http://VeryCB.github.com/blog/categories/thought/atom.xml" rel="self"/>
-  <link href="http://VeryCB.github.com/"/>
-  <updated>2012-07-27T17:40:09+01:00</updated>
-  <id>http://VeryCB.github.com/</id>
+  <link href="/blog/categories/thought/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2012-07-28T19:13:18+01:00</updated>
+  <id>/</id>
   <author>
     <name><![CDATA[Calvin]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[改变与坚持]]></title>
-    <link href="http://VeryCB.github.com/blog/2012/01/26/change-and-persistence/"/>
+    <link href="/blog/2012/01/26/change-and-persistence/"/>
     <updated>2012-01-26T23:10:48+00:00</updated>
-    <id>http://VeryCB.github.com/blog/2012/01/26/change-and-persistence</id>
+    <id>/blog/2012/01/26/change-and-persistence</id>
     <content type="html"><![CDATA[<p>去年年底的时候在TED看到Google的SEO专家<a href="http://www.mattcutts.com/blog/about-me/">Matt Cutts</a>做了一个演讲，讲的是用30天的时间尝试做一些新事情，比如每天拍一张照片、骑自行车上下班、写小说等等。他在演讲中提到small changes = sustainable，也就是说即使每天只做一点微不足道的小小的改变，坚持一段时间（比如30天），你所期望的目标就会达到。我把视频放在下面，感兴趣的童鞋可以看看。</p>
 
 <p><embed src="http://player.youku.com/player.php/sid/XMzMwMzk1ODI0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>

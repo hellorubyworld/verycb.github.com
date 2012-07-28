@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: HGDonline | VeryCB]]></title>
-  <link href="http://VeryCB.github.com/blog/categories/hgdonline/atom.xml" rel="self"/>
-  <link href="http://VeryCB.github.com/"/>
-  <updated>2012-07-27T17:40:09+01:00</updated>
-  <id>http://VeryCB.github.com/</id>
+  <link href="/blog/categories/hgdonline/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2012-07-28T19:13:18+01:00</updated>
+  <id>/</id>
   <author>
     <name><![CDATA[Calvin]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[借了几本书]]></title>
-    <link href="http://VeryCB.github.com/blog/2007/12/04/shu/"/>
+    <link href="/blog/2007/12/04/shu/"/>
     <updated>2007-12-04T02:49:00+00:00</updated>
-    <id>http://VeryCB.github.com/blog/2007/12/04/shu</id>
+    <id>/blog/2007/12/04/shu</id>
     <content type="html"><![CDATA[<p>最近做的网站已经上线了，马上就要进入最后的调试阶段了，明天把剩下的几个页面切完我的任务就完成了。不过对于马上就要考的四级，我现在还是一点把握都没有，只能等做完这个项目就做最后一搏了。</p>
 
 <p>今天上毛邓三把CSS看到了最后一章，本来想看完就去还的（今天到期），但看了两节课都还没看完，于是乎登陆了图书馆的网站点了一下“续借”。然后又借了三本书：一本是《ASP程序设计》，前台学的差不多了，准备开始学后台开发了。等学完这个就开始着手做我们班的网站了，有那么多好的比较成熟的后台不用偏要让我们自己开发，开发出来还不知道有多少漏洞供别人攻击呢，毕竟我们不是专门开发后台的。其实我本来是准备学asp.net+SQL的，但去网上转了一圈发现大部分空间提供商那里都是提供asp+access的，如果要支持SQL那要花大价钱，而J导要我们做ASP+ACCSEE的，那就先学这个吧，等学完这个再去学.net和SQL，这样再学起来也好学一些。第二本是《CSS禅意花园》，是一个国外的CSS大师写的，搞CSS能搞到这种境界，不简单。SO，借来欣赏一下。第三本是《韩国网页设计精粹》，韩国在创意这方面的确是领先的，现在网路上的模板大都是韩国的。开一下眼界，积累点经验。</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[祝湖工大在线生日快乐]]></title>
-    <link href="http://VeryCB.github.com/blog/2007/11/27/sheng-ri-kuai-le/"/>
+    <link href="/blog/2007/11/27/sheng-ri-kuai-le/"/>
     <updated>2007-11-27T02:49:00+00:00</updated>
-    <id>http://VeryCB.github.com/blog/2007/11/27/sheng-ri-kuai-le</id>
+    <id>/blog/2007/11/27/sheng-ri-kuai-le</id>
     <content type="html"><![CDATA[<p>搞了一下午，终于把效果图搞出来了。</p>
 
 <p>明天是湖工大在线两周岁生日，预祝生日快乐，越办越好！</p>
@@ -37,9 +37,9 @@
   
   <entry>
     <title type="html"><![CDATA[忙碌]]></title>
-    <link href="http://VeryCB.github.com/blog/2007/11/21/mang-lu/"/>
+    <link href="/blog/2007/11/21/mang-lu/"/>
     <updated>2007-11-21T02:49:00+00:00</updated>
-    <id>http://VeryCB.github.com/blog/2007/11/21/mang-lu</id>
+    <id>/blog/2007/11/21/mang-lu</id>
     <content type="html"><![CDATA[<p>昨天下午6点接到站长打来的电话，问我晚上有没有空，有点事情找我。8点半准时赶到2栋后面，有三个人已经等在那里了。代迪说好了人到齐了开始吧，虽然我还不知道是什么事，但却突然就有种“受宠若惊”的感觉，因为四个人里面除了我都是网站的最高层：前任站长、现任站长、技术部长，再就是我了。</p>
 
 <p>代迪说外面有家公司让我们给做一个网站，报价3000，问我有没有时间做。</p>
@@ -56,9 +56,9 @@
   
   <entry>
     <title type="html"><![CDATA[今天]]></title>
-    <link href="http://VeryCB.github.com/blog/2007/11/07/today/"/>
+    <link href="/blog/2007/11/07/today/"/>
     <updated>2007-11-07T02:49:00+00:00</updated>
-    <id>http://VeryCB.github.com/blog/2007/11/07/today</id>
+    <id>/blog/2007/11/07/today</id>
     <content type="html"><![CDATA[<p>用了一天的时间把刚借《CSS使用详解》看到了第四章。感觉比C++简单多了。</p>
 
 <p>下午开班会，去的路上一直观察学校的景色，想找点灵感参加摄影大赛，但没想出好的创意来。算了一下素质分，竟然出乎我意料的上了双，汗...看来我还是参加了些不该参加的活动，呵呵。</p>
@@ -71,9 +71,9 @@
   
   <entry>
     <title type="html"><![CDATA[满足]]></title>
-    <link href="http://VeryCB.github.com/blog/2007/09/15/man-zu/"/>
+    <link href="/blog/2007/09/15/man-zu/"/>
     <updated>2007-09-15T21:01:09+01:00</updated>
-    <id>http://VeryCB.github.com/blog/2007/09/15/man-zu</id>
+    <id>/blog/2007/09/15/man-zu</id>
     <content type="html"><![CDATA[<p>网站的改版工作已经接近尾声了，我的任务也已经圆满完成了，很久没有这种成就感了。当然还要感谢站长给我这次锻炼的机会啦，对于一个加入网站时间不长的“Rookie”，能够担任四大主页之一的设计制作工作，充分显示了站长对我的器重。我会继续努力的！</p>
 
 <p>虽然在网站里没有工资拿，但着实学到了不少东西，况且还能免费使用校园网呢~嘿嘿，我已经很满足了。</p>

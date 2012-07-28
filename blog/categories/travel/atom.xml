@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Travel | VeryCB]]></title>
-  <link href="http://VeryCB.github.com/blog/categories/travel/atom.xml" rel="self"/>
-  <link href="http://VeryCB.github.com/"/>
-  <updated>2012-07-27T17:40:09+01:00</updated>
-  <id>http://VeryCB.github.com/</id>
+  <link href="/blog/categories/travel/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2012-07-28T19:13:18+01:00</updated>
+  <id>/</id>
   <author>
     <name><![CDATA[Calvin]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[欧洲大陆行纪]]></title>
-    <link href="http://VeryCB.github.com/blog/2012/06/14/travel-records/"/>
+    <link href="/blog/2012/06/14/travel-records/"/>
     <updated>2012-06-14T01:11:00+01:00</updated>
-    <id>http://VeryCB.github.com/blog/2012/06/14/travel-records</id>
+    <id>/blog/2012/06/14/travel-records</id>
     <content type="html"><![CDATA[<p>一下去的地方太多，实在写不过来了，所以就不一个城市一个城市的写了，干脆就在这篇日志里把整个行程里值得纪录下来的东西写下来吧。</p>
 
 <ol>
@@ -50,9 +50,9 @@
   
   <entry>
     <title type="html"><![CDATA[欧洲大陆行之罗马]]></title>
-    <link href="http://VeryCB.github.com/blog/2012/03/29/rome/"/>
+    <link href="/blog/2012/03/29/rome/"/>
     <updated>2012-03-29T21:37:23+01:00</updated>
-    <id>http://VeryCB.github.com/blog/2012/03/29/rome</id>
+    <id>/blog/2012/03/29/rome</id>
     <content type="html"><![CDATA[<p>14日早上，我们从学校坐了四个小时的大巴到伦敦Stansted机场，然后又坐了两个半小时飞机，终于抵达此次欧洲大陆行的第一站——罗马。</p>
 
 <p><img src="http://ww1.sinaimg.cn/large/a0c2e9c9gw1drqfpmmcgzj.jpg" alt="" /></p>

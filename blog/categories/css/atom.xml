@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: CSS | VeryCB]]></title>
-  <link href="http://VeryCB.github.com/blog/categories/css/atom.xml" rel="self"/>
-  <link href="http://VeryCB.github.com/"/>
-  <updated>2012-07-27T17:40:09+01:00</updated>
-  <id>http://VeryCB.github.com/</id>
+  <link href="/blog/categories/css/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2012-07-28T19:13:18+01:00</updated>
+  <id>/</id>
   <author>
     <name><![CDATA[Calvin]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[CSS 3.0 参考手册（中文版）]]></title>
-    <link href="http://VeryCB.github.com/blog/2009/07/21/css3-reference-manual/"/>
+    <link href="/blog/2009/07/21/css3-reference-manual/"/>
     <updated>2009-07-21T02:49:00+01:00</updated>
-    <id>http://VeryCB.github.com/blog/2009/07/21/css3-reference-manual</id>
+    <id>/blog/2009/07/21/css3-reference-manual</id>
     <content type="html"><![CDATA[<p><a href="http://webteam.tencent.com/">腾讯ISD Webteam</a>上个月发布了他们制作的CSS 3.0 参考手册 (中文版)，填补了中文CSS3手册的空白。由于CSS3官方文档还没有正式发布，所以手册主要对草案进行了翻译，并结合了他们团队在工作中的一些经验，总的来说是比较权威的。</p>
 
 <p><strong>下载：</strong><a href="http://www.blueidea.com/articleimg/2009/09/6987/css3.0manual.chm.zip">CSS 3.0 参考手册 (中文版) 下载 (366k)</a></p>

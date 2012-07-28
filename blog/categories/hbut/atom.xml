@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hbut | VeryCB]]></title>
-  <link href="http://VeryCB.github.com/blog/categories/hbut/atom.xml" rel="self"/>
-  <link href="http://VeryCB.github.com/"/>
-  <updated>2012-07-27T17:40:09+01:00</updated>
-  <id>http://VeryCB.github.com/</id>
+  <link href="/blog/categories/hbut/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2012-07-28T19:13:18+01:00</updated>
+  <id>/</id>
   <author>
     <name><![CDATA[Calvin]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[关于湖工成绩查询]]></title>
-    <link href="http://VeryCB.github.com/blog/2010/01/22/hbut-score/"/>
+    <link href="/blog/2010/01/22/hbut-score/"/>
     <updated>2010-01-22T02:49:00+00:00</updated>
-    <id>http://VeryCB.github.com/blog/2010/01/22/hbut-score</id>
+    <id>/blog/2010/01/22/hbut-score</id>
     <content type="html"><![CDATA[<p>这篇日志是写给湖工各位同学们的，无关人士无需浪费时间。</p>
 
 <p>忘记从什么时候开始，很多同学浏览器的收藏夹里都添加了一个网页，利用这个网页可以在最终成绩（在教学管理平台中查到的成绩）出来之前查到老师已经提交了的成绩。当然这个成绩并不是最终成绩，只是老师在后台里添加的初始成绩（不过一般跟最终成绩没多大出入）。而如果你发现有不及格的科目，就可以跟老师“交流”，希望老师能高抬贵手放自己通过（当然最终能不能通过还得看你“交流”的结果）。正是因为以上特点，使得这个页面广为流传，几乎我认识的所有同学都知道这个页面。</p>
