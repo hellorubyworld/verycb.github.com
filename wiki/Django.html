@@ -249,7 +249,7 @@ Publisher.objects.filter(name='Apress').delete() # 删除
 </pre>
 
 <h3 id="toc_1.5.8">HttpRequest对象</h3>
-<pre class="brush.py">
+<pre class="brush: py">
 | request.PATH             | 请求的路径，不包含域和参数                                                                                                                  |
 | request.get_host()       | 域                                                                                                                                          |
 | request.get_full_path()  | 请求的路径，包含参数                                                                                                                        |
@@ -257,6 +257,45 @@ Publisher.objects.filter(name='Apress').delete() # 删除
 | request.META             | HTTP header 里包含的信息（字典类型），如 request.META['HTTP_USER_AGENT'] 获取用户浏览器的 UA，request.META['REMOTE_ADDR'] 获取请求来源的 IP |
 | request.GET['name']      | 从 GET 请求中获取 name 的值                                                                                                                 |
 | request.POST['password'] | 从 POST 请求中获取 password 的值                                                                                                            |
+</pre>
+
+<h3 id="toc_1.5.9">Form</h3>
+<pre class="brush: py">
+# 在 forms.py 里定义一个 ContactForm 表单
+from django import forms
+
+class ContactForm(forms.Form):
+    subject = forms.CharField()
+    email = forms.EmailField()
+    message = forms.CharField(widget=forms.Textarea) # widget 用来重写字段为 &lt;textarea&gt;
+
+# 在 views.py 调用 ContactForm
+from forms import ContactForm
+
+def test():
+    # 声明一个 ContactForm 对象 f
+    f = ContactForm()
+
+    # 输出 f 为 table 格式
+    print f
+
+    # 输出 f 为 ul 格式
+    print f.as_ul()
+
+    # 输出subject 字段(&lt;input type="text" /&gt;)
+    print f['subject']
+
+    # 验证表单
+    f = ContactForm({'subject': 'Hello', 'email': 'test@verycb.me', 'message': 'nice site!'})
+    f.is_valid() # True
+    f.is_bound # True
+    f.errors # 输出错误
+    f.cleaden_data # 输出字典类型的表单数据
+
+    # 表单初始化
+    f = ContactForm(
+        initial = {'subject': 'I love your site!'}
+    )
 </pre>
 
 </body>
