@@ -46,6 +46,7 @@ from views import home_view, time_ahead
 urlpatterns = patterns('',
     url(r'^$', home_view),
     url(r'^time/plus/(\d{1,2})/(\d{1,2})/$', time_ahead), # () 用来从 URL 中取值并传给 views，所以 time_ahead(request, value1, value2)
+    url(r'^time/plus/(?P&lt;value1&gt;\d{1,2})/(?P&lt;value2&gt;\d{1,2})/$', time_ahead), ＃ 跟上面一样，但可以按变量名取值了
 )
 </pre>
 
