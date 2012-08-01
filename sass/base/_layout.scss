@@ -127,28 +127,16 @@ body.sidebar-footer {
 @media only screen and (min-width: 750px) {
   aside.sidebar { @include collapse-sidebar; }
 }
-<<<<<<< HEAD
-#main, #content, .sidebar {
-  @extend .group;
-}
-=======
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
 @media only screen and (min-width: 768px) {
   body { -webkit-text-size-adjust: auto; }
   body > header { font-size: $header-font-size * 1.2; }
   #main {
-<<<<<<< HEAD
-=======
     @extend .group;
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
     padding: 0;
     margin: 0 auto;
   }
   #content {
-<<<<<<< HEAD
-=======
     @extend .group;
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
     overflow: visible;
     margin-right: $sidebar-width-medium;
     position: relative;
@@ -161,10 +149,7 @@ body.sidebar-footer {
     }
   }
   aside.sidebar {
-<<<<<<< HEAD
-=======
     @extend .group;
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
     width: $sidebar-width-medium - $sidebar-pad-medium*2;
     padding: 0 $sidebar-pad-medium $sidebar-pad-medium;
     background: none;
@@ -195,10 +180,7 @@ body.sidebar-footer {
     padding: 1.2em $sidebar-pad-wide $sidebar-pad-wide;
     .collapse-sidebar & {
       padding: { left: $pad-wide; right: $pad-wide; }
-<<<<<<< HEAD
-=======
       @extend .group;
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
     }
   }
 }
@@ -208,7 +190,3 @@ body.sidebar-footer {
     ul, ol { margin-left: 0; }
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 6d75b5380d6be827b58a3eb1886c10bc8c1e6514
