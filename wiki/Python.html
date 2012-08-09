@@ -192,8 +192,14 @@ set(a) | set(b) #a并b，输出：set(['test', 'test3', 'test2'])
 set(a) ^ set(b) #在集合a或在集合b中，但不在a交b中，输出：set(['test', 'test3'])
 </pre>
 
+<h2 id="toc_1.6">模块</h2>
+<pre class="brush: py">
+from fibo import * # 导入 fibo 内的除以"_"开头的所有名字
 
-<h2 id="toc_1.6">创建目录</h2>
+dir(fibo) # list the names defined in fibo
+</pre>
+
+<h2 id="toc_1.7">创建目录</h2>
 <pre class="brush: py">
 import os
 os.mkdir('test') #创建名为“test”的目录
