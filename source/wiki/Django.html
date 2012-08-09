@@ -46,6 +46,7 @@ from views import home_view, time_ahead
 urlpatterns = patterns('',
     url(r'^$', home_view),
     url(r'^time/plus/(\d{1,2})/(\d{1,2})/$', time_ahead), # () 用来从 URL 中取值并传给 views，所以 time_ahead(request, value1, value2)
+    url(r'^time/plus/(?P&lt;value1&gt;\d{1,2})/(?P&lt;value2&gt;\d{1,2})/$', time_ahead), ＃ 跟上面一样，但可以按变量名取值了
 )
 </pre>
 
@@ -266,8 +267,16 @@ from django import forms
 
 class ContactForm(forms.Form):
     subject = forms.CharField()
-    email = forms.EmailField()
+    email = forms.EmailField(required=False, label='Your e-mail address')
     message = forms.CharField(widget=forms.Textarea) # widget 用来重写字段为 &lt;textarea&gt;
+
+    # 自定义验证规则，django 会自动寻找名为 clean_fieldname 的方法并在验证的时候执行
+    def clean_message(self):
+        message = self.cleaned_data['message']
+        num_words = len(message.split())
+        if num_words &lt; 4:
+            raise forms.ValidationError("Not enough words!")
+        return message # 记得 return !!!
 
 # 在 views.py 调用 ContactForm
 from forms import ContactForm
@@ -296,6 +305,7 @@ def test():
     f = ContactForm(
         initial = {'subject': 'I love your site!'}
     )
+
 </pre>
 
 </body>
