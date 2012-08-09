@@ -250,15 +250,64 @@ Publisher.objects.filter(name='Apress').delete() # 删除
 </pre>
 
 <h3 id="toc_1.5.8">HttpRequest对象</h3>
-<pre class="brush: py">
-| request.PATH             | 请求的路径，不包含域和参数                                                                                                                  |
-| request.get_host()       | 域                                                                                                                                          |
-| request.get_full_path()  | 请求的路径，包含参数                                                                                                                        |
-| request.is_secure()      | 判断是否 https                                                                                                                              |
-| request.META             | HTTP header 里包含的信息（字典类型），如 request.META['HTTP_USER_AGENT'] 获取用户浏览器的 UA，request.META['REMOTE_ADDR'] 获取请求来源的 IP |
-| request.GET['name']      | 从 GET 请求中获取 name 的值                                                                                                                 |
-| request.POST['password'] | 从 POST 请求中获取 password 的值                                                                                                            |
-</pre>
+<table>
+<tr>
+<td>
+request.PATH
+</td>
+<td>
+请求的路径，不包含域和参数
+</td>
+</tr>
+<tr>
+<td>
+request.get_host()
+</td>
+<td>
+域
+</td>
+</tr>
+<tr>
+<td>
+request.get_full_path()
+</td>
+<td>
+请求的路径，包含参数
+</td>
+</tr>
+<tr>
+<td>
+request.is_secure()
+</td>
+<td>
+判断是否 https
+</td>
+</tr>
+<tr>
+<td>
+request.META
+</td>
+<td>
+HTTP header 里包含的信息（字典类型），如 request.META['HTTP_USER_AGENT'] 获取用户浏览器的 UA，request.META['REMOTE_ADDR'] 获取请求来源的 IP
+</td>
+</tr>
+<tr>
+<td>
+request.GET['name']
+</td>
+<td>
+从 GET 请求中获取 name 的值
+</td>
+</tr>
+<tr>
+<td>
+request.POST['password']
+</td>
+<td>
+从 POST 请求中获取 password 的值
+</td>
+</tr>
+</table>
 
 <h3 id="toc_1.5.9">Form</h3>
 <pre class="brush: py">
