@@ -123,6 +123,55 @@ else:
 while True:
     pass #啥也不干，但语法要求这里不能空着...然后就有了pass...然后就一直循环...
 </pre>
+<p>
+当循环一个序列时，用 enumerate() 可以同时得到元素的位置和值
+</p>
+<pre class="brush: py">
+for i, v in enumerate(['tic', 'tac', 'toe']):
+    print i, v
+# 输出：
+# 0 tic
+# 1 tac
+# 2 toe
+</pre>
+<p>
+用 zip() 可以同时循环多个列表
+</p>
+<pre class="brush: py">
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
+list3 = ['一', '二']
+for i, j, k in zip(list1, list2, list3):
+    print i, j, k
+# 输出(list3中没有第三个元素所以只循环两次):
+# 1 a 一
+# 2 b 二
+</pre>
+<p>
+反向循环
+</p>
+<pre class="brush: py">
+for i in reversed(xrange(1,10,2)):
+    print i
+# 输出:
+# 9
+# 7
+# 5
+# 3
+# 1
+</pre>
+<p>
+当循环一个字典时，用 iteritems() 可以得到 key 和 value 的值
+</p>
+<pre class="brush: py">
+a = {'a': 1, 'b':2, 'c':3}
+for key, value in a.iteritems():
+    print key, value
+# 输出（字典是无序的）:
+# a 1
+# c 3
+# b 2
+</pre>
 
 <h2 id="toc_1.4">函数</h2>
 <p>
