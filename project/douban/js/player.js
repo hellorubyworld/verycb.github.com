@@ -8,5 +8,6 @@ $(function () {
         },
         swfPath: "js",
         supplied: "m4a, oga"
+        solution: "flash, html"
     });
 });
