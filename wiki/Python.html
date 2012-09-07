@@ -247,7 +247,6 @@ with open('test.txt', 'r') as f:
 </pre>
 
 <h2 id="toc_1.9">标准库</h2>
-<h3 id="toc_1.9.1">操作系统接口</h3>
 <pre class="brush: py">
 import os
 os.mkdir('test') # 创建名为“test”的目录
@@ -261,6 +260,9 @@ os.system('mkdir test') # 执行shell command 'mkdir test'
 import shutil
 shutil.copyfile('data.db', 'archive.db') # 拷贝文件
 shutil.move('/build/executables', 'installdir') # 移动目录
+
+import sys
+sys.exit() # 终止程序运行最直接的方法
 </pre>
 
 </body>
