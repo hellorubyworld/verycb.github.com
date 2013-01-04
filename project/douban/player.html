@@ -1,5 +1,8 @@
+<!DOCTYPE HTML>
 <html>
-<head>
+  <head>
+    <meta charset="UTF-8">
+
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
   <script type="text/javascript">
@@ -11,9 +14,10 @@
             oga: "http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
           });
         },
-        swfPath: "js",
-        supplied: "m4a, oga"
-        solution: "flash, html"
+        //swfPath: "js",
+        supplied: "m4a, oga",
+        //solution: "html flash",
+        wmode: "window"
       });
     });
   </script>
